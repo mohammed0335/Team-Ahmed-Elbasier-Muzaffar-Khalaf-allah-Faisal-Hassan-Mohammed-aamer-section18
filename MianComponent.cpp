@@ -12,7 +12,7 @@ MainComponent::MainComponent()
         b->addListener(this);
     }
 
-    // Sliders setup
+    // Slider setup
     volumeSlider.setRange(0.0, 1.0, 0.01);
     volumeSlider.setValue(0.5);
     volumeSlider.addListener(this);
